@@ -1,0 +1,186 @@
+2017-10-13 15:11:44.020 DEBUG 9716 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('READER')', for Ant [pattern='/']
+2017-10-13 15:11:44.020 DEBUG 9716 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2017-10-13 15:11:44.020 DEBUG 9716 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2017-10-13 15:11:44.020 DEBUG 9716 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2017-10-13 15:11:44.036  INFO 9716 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bce313, org.springframework.security.web.context.SecurityContextPersistenceFilter@11a3a45f, org.springframework.security.web.header.HeaderWriterFilter@34045582, org.springframework.security.web.csrf.CsrfFilter@38e83838, org.springframework.security.web.authentication.logout.LogoutFilter@4a216eb4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@233f52f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40df6090, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cc64028, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39266403, org.springframework.security.web.session.SessionManagementFilter@1edccfd4, org.springframework.security.web.access.ExceptionTranslationFilter@7e5efcab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26c77f54]
+2017-10-13 15:11:44.613 DEBUG 9716 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.example.demo.security.SecurityConfig$$EnhancerBySpringCGLIB$$fb49b807@7cfb0c4c}
+2017-10-13 15:12:05.760  INFO 6876 --- [main] com.example.demo.Demo3Application        : Starting Demo3Application on Nemésis-PC with PID 6876 (D:\webhost-java\gs-spring-boot-master\demo3\target\classes started by Nemesis2 in D:\webhost-java\gs-spring-boot-master\demo3)
+2017-10-13 15:12:05.760  INFO 6876 --- [main] com.example.demo.Demo3Application        : No active profile set, falling back to default profiles: default
+2017-10-13 15:12:05.916  INFO 6876 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a: startup date [Fri Oct 13 15:12:05 CEST 2017]; root of context hierarchy
+2017-10-13 15:12:06.760  INFO 6876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b72129e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-13 15:12:06.791  INFO 6876 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-10-13 15:12:07.105  INFO 6876 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-10-13 15:12:07.120  INFO 6876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-10-13 15:12:07.120  INFO 6876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-10-13 15:12:07.230  INFO 6876 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-13 15:12:07.230  INFO 6876 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1329 ms
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-13 15:12:07.526  INFO 6876 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-10-13 15:12:07.822  INFO 6876 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:12:07.838  INFO 6876 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-13 15:12:07.885  INFO 6876 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-13 15:12:07.885  INFO 6876 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-13 15:12:07.885  INFO 6876 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-13 15:12:07.932  INFO 6876 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-13 15:12:08.010  INFO 6876 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-13 15:12:08.353  INFO 6876 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-10-13 15:12:08.368  INFO 6876 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-10-13 15:12:08.384  INFO 6876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:12:08.807  INFO 6876 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15e8f9b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c98b4eb, org.springframework.security.web.header.HeaderWriterFilter@44d7e24, org.springframework.security.web.csrf.CsrfFilter@448c92fc, org.springframework.security.web.authentication.logout.LogoutFilter@7a31ca20, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bce313, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@756b2d90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ec88f9e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a65c995, org.springframework.security.web.session.SessionManagementFilter@1d289d3f, org.springframework.security.web.access.ExceptionTranslationFilter@69796bd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@560271a1]
+2017-10-13 15:12:09.010  INFO 6876 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a: startup date [Fri Oct 13 15:12:05 CEST 2017]; root of context hierarchy
+2017-10-13 15:12:09.072  INFO 6876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[POST]}" onto public java.lang.String com.example.demo.controller.ReadingListController.addToReadingList(java.lang.String,com.example.demo.model.Book)
+2017-10-13 15:12:09.072  INFO 6876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[GET]}" onto public java.lang.String com.example.demo.controller.ReadingListController.readersBooks(java.lang.String,org.springframework.ui.Model)
+2017-10-13 15:12:09.072  INFO 6876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-13 15:12:09.072  INFO 6876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-13 15:12:09.088  INFO 6876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:12:09.088  INFO 6876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:12:09.119  INFO 6876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:12:09.400  INFO 6876 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: e79b4b15-56e4-4cc0-98fe-57b492224fad
+
+2017-10-13 15:12:09.556  INFO 6876 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-13 15:12:09.603  INFO 6876 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-10-13 15:12:09.603  INFO 6876 --- [main] com.example.demo.Demo3Application        : Started Demo3Application in 4.093 seconds (JVM running for 4.813)
+2017-10-13 15:12:57.158  INFO 9224 --- [main] com.example.demo.Demo3Application        : Starting Demo3Application on Nemésis-PC with PID 9224 (D:\webhost-java\gs-spring-boot-master\demo3\target\classes started by Nemesis2 in D:\webhost-java\gs-spring-boot-master\demo3)
+2017-10-13 15:12:57.158  INFO 9224 --- [main] com.example.demo.Demo3Application        : No active profile set, falling back to default profiles: default
+2017-10-13 15:12:57.314  INFO 9224 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1817d444: startup date [Fri Oct 13 15:12:57 CEST 2017]; root of context hierarchy
+2017-10-13 15:12:58.223  INFO 9224 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b7252c7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-13 15:12:58.254  INFO 9224 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-10-13 15:12:58.582  INFO 9224 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-10-13 15:12:58.582  INFO 9224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-10-13 15:12:58.597  INFO 9224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-10-13 15:12:58.706  INFO 9224 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-13 15:12:58.706  INFO 9224 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1392 ms
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-13 15:12:59.003  INFO 9224 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-10-13 15:12:59.330  INFO 9224 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:12:59.330  INFO 9224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-13 15:12:59.393  INFO 9224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-13 15:12:59.393  INFO 9224 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-13 15:12:59.393  INFO 9224 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-13 15:12:59.440  INFO 9224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-13 15:12:59.518  INFO 9224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-13 15:12:59.870  INFO 9224 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-10-13 15:12:59.885  INFO 9224 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-10-13 15:12:59.917  INFO 9224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:13:00.338  INFO 9224 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a0c5be, org.springframework.security.web.context.SecurityContextPersistenceFilter@340cb97f, org.springframework.security.web.header.HeaderWriterFilter@756b2d90, org.springframework.security.web.csrf.CsrfFilter@250d440, org.springframework.security.web.authentication.logout.LogoutFilter@31aab981, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a65c995, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11c88cca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@349c4d1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6424e613, org.springframework.security.web.session.SessionManagementFilter@6cc64028, org.springframework.security.web.access.ExceptionTranslationFilter@7f27f59b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b768a65]
+2017-10-13 15:13:00.556  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1817d444: startup date [Fri Oct 13 15:12:57 CEST 2017]; root of context hierarchy
+2017-10-13 15:13:00.603  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[POST]}" onto public java.lang.String com.example.demo.controller.ReadingListController.addToReadingList(java.lang.String,com.example.demo.model.Book)
+2017-10-13 15:13:00.603  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[GET]}" onto public java.lang.String com.example.demo.controller.ReadingListController.readersBooks(java.lang.String,org.springframework.ui.Model)
+2017-10-13 15:13:00.603  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-13 15:13:00.619  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-13 15:13:00.634  INFO 9224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:13:00.634  INFO 9224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:13:00.676  INFO 9224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:13:00.954  INFO 9224 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: a5a09152-8ae5-4203-921d-d26a707da7c8
+
+2017-10-13 15:13:01.126  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-13 15:13:01.173  INFO 9224 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-10-13 15:13:01.173  INFO 9224 --- [main] com.example.demo.Demo3Application        : Started Demo3Application in 4.28 seconds (JVM running for 5.308)
+2017-10-13 15:14:57.572  INFO 5904 --- [main] com.example.demo.Demo3Application        : Starting Demo3Application on Nemésis-PC with PID 5904 (D:\webhost-java\gs-spring-boot-master\demo3\target\classes started by Nemesis2 in D:\webhost-java\gs-spring-boot-master\demo3)
+2017-10-13 15:14:57.572  INFO 5904 --- [main] com.example.demo.Demo3Application        : No active profile set, falling back to default profiles: default
+2017-10-13 15:14:57.728  INFO 5904 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15c43bd9: startup date [Fri Oct 13 15:14:57 CEST 2017]; root of context hierarchy
+2017-10-13 15:14:58.574  INFO 5904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f1c4585d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-13 15:14:58.605  INFO 5904 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-10-13 15:14:58.923  INFO 5904 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-10-13 15:14:58.923  INFO 5904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-10-13 15:14:58.923  INFO 5904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-10-13 15:14:59.048  INFO 5904 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-13 15:14:59.048  INFO 5904 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1335 ms
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-13 15:14:59.367  INFO 5904 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-10-13 15:14:59.680  INFO 5904 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:14:59.696  INFO 5904 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-13 15:14:59.743  INFO 5904 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-13 15:14:59.743  INFO 5904 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-13 15:14:59.743  INFO 5904 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-13 15:14:59.789  INFO 5904 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-13 15:14:59.883  INFO 5904 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-13 15:15:00.289  INFO 5904 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-10-13 15:15:00.304  INFO 5904 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-10-13 15:15:00.320  INFO 5904 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:15:00.759  INFO 5904 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6424e613, org.springframework.security.web.context.SecurityContextPersistenceFilter@11c88cca, org.springframework.security.web.header.HeaderWriterFilter@6cc64028, org.springframework.security.web.csrf.CsrfFilter@7e5efcab, org.springframework.security.web.authentication.logout.LogoutFilter@26be9a6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c950b3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a216eb4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21edd891, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14efa279, org.springframework.security.web.session.SessionManagementFilter@5b1e88f, org.springframework.security.web.access.ExceptionTranslationFilter@45801322, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6897a4a]
+2017-10-13 15:15:00.977  INFO 5904 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15c43bd9: startup date [Fri Oct 13 15:14:57 CEST 2017]; root of context hierarchy
+2017-10-13 15:15:01.024  INFO 5904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[GET]}" onto public java.lang.String com.example.demo.controller.ReadingListController.readersBooks(java.lang.String,org.springframework.ui.Model)
+2017-10-13 15:15:01.024  INFO 5904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[POST]}" onto public java.lang.String com.example.demo.controller.ReadingListController.addToReadingList(java.lang.String,com.example.demo.model.Book)
+2017-10-13 15:15:01.024  INFO 5904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-13 15:15:01.039  INFO 5904 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-13 15:15:01.055  INFO 5904 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:15:01.055  INFO 5904 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:15:01.086  INFO 5904 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:15:01.367  INFO 5904 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: e7832c1f-ac3e-4576-b881-c31ed1d2f128
+
+2017-10-13 15:15:01.523  INFO 5904 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-13 15:15:01.585  INFO 5904 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-10-13 15:15:01.585  INFO 5904 --- [main] com.example.demo.Demo3Application        : Started Demo3Application in 4.262 seconds (JVM running for 4.97)
+2017-10-13 15:16:46.202  INFO 4332 --- [main] com.example.demo.Demo3Application        : Starting Demo3Application on Nemésis-PC with PID 4332 (D:\webhost-java\gs-spring-boot-master\demo3\target\classes started by Nemesis2 in D:\webhost-java\gs-spring-boot-master\demo3)
+2017-10-13 15:16:46.202  INFO 4332 --- [main] com.example.demo.Demo3Application        : No active profile set, falling back to default profiles: default
+2017-10-13 15:16:46.342  INFO 4332 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15c43bd9: startup date [Fri Oct 13 15:16:46 CEST 2017]; root of context hierarchy
+2017-10-13 15:16:47.200  INFO 4332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$484f54ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-13 15:16:47.232  INFO 4332 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-10-13 15:16:47.544  INFO 4332 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-10-13 15:16:47.544  INFO 4332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-10-13 15:16:47.544  INFO 4332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-10-13 15:16:47.668  INFO 4332 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-10-13 15:16:47.668  INFO 4332 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1326 ms
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-13 15:16:47.949  INFO 4332 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-10-13 15:16:48.246  INFO 4332 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:16:48.261  INFO 4332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-13 15:16:48.308  INFO 4332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-13 15:16:48.308  INFO 4332 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-13 15:16:48.308  INFO 4332 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-13 15:16:48.355  INFO 4332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-13 15:16:48.448  INFO 4332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-10-13 15:16:48.794  INFO 4332 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-10-13 15:16:48.809  INFO 4332 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-10-13 15:16:48.825  INFO 4332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-13 15:16:49.262  INFO 4332 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@604d28c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b11620a, org.springframework.security.web.header.HeaderWriterFilter@1b37fbec, org.springframework.security.web.csrf.CsrfFilter@8c43966, org.springframework.security.web.authentication.logout.LogoutFilter@5b0dbfb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a0c5be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@357f6391, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31aab981, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f3c0399, org.springframework.security.web.session.SessionManagementFilter@bb3ecfe, org.springframework.security.web.access.ExceptionTranslationFilter@340cb97f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4be490da]
+2017-10-13 15:16:49.449  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15c43bd9: startup date [Fri Oct 13 15:16:46 CEST 2017]; root of context hierarchy
+2017-10-13 15:16:49.496  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[GET]}" onto public java.lang.String com.example.demo.controller.ReadingListController.readersBooks(java.lang.String,org.springframework.ui.Model)
+2017-10-13 15:16:49.496  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{reader}],methods=[POST]}" onto public java.lang.String com.example.demo.controller.ReadingListController.addToReadingList(java.lang.String,com.example.demo.model.Book)
+2017-10-13 15:16:49.496  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-13 15:16:49.496  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-13 15:16:49.527  INFO 4332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:16:49.527  INFO 4332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:16:49.558  INFO 4332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-13 15:16:49.839  INFO 4332 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: e9b883bd-a998-4471-9d1c-f148bafacdaa
+
+2017-10-13 15:16:49.995  INFO 4332 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-13 15:16:50.042  INFO 4332 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-10-13 15:16:50.057  INFO 4332 --- [main] com.example.demo.Demo3Application        : Started Demo3Application in 4.089 seconds (JVM running for 4.813)

@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost/readinglist?autoReconnect=true&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  profiles:
+    active: production
+logging:
+  level:
+    root: INFO
+  path: D:/webhost-java/gs-spring-boot-master/demo3/logs
+#  file: filename.log - is needed to create logback.xml in resources
+amazon:
+  associateId: habuma-20
